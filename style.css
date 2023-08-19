@@ -27,9 +27,11 @@ body {
     height: 27vh;
     background-image: url("img/background.png");
     background-size: cover;
+    background-repeat: no-repeat;
     background-color: #666;
     background-blend-mode: multiply;
     font-weight: bolder;
+    
 }
 
 .header-container {
@@ -113,6 +115,19 @@ body {
     margin: 0px auto;
     text-align: center;
     padding-top: 100px;
+}
+
+#favourite{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+}
+
+#favourite:hover{
+    color: red;
 }
 
 .start-exploring span {
@@ -229,4 +244,4 @@ body {
     font-style: italic;
     font-size: 13px;
     margin-bottom: 0rem;
-}
+}   
